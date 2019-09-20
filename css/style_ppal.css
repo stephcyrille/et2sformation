@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Century Gothic, Helvetica, Kalinga, calibri;
+	background-color: #f1f1f1;
+}
+
+/* Ppal component */
+header{
+	background-color: #ff5b00
+}
+header div img{
+	padding-left: 10px;
+	width: 370px;
+}
+
+nav{
+	background-color: #5149f6;
+}
+
+nav ul{
+	margin: 0;
+	/*text-align: center;*/
+}
+
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+nav li:hover, nav li a:hover{
+	background-color: #ff5b00;
+}
+
+nav li a{
+	text-decoration: none;
+	margin: 10px;
+	font-size: 16px;
+	color: white;
+}
+/* End Ppal Component*/
+
+
+footer{
+	padding: 20px;
+	background-color: lightgrey;
+	text-align: center;
+}

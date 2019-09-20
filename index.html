@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Speedy Web Client</title>
+
+	  <link href="css/style_ppal.css" rel="stylesheet"type="text/css" />
+	  <link href="css/style_index.css" rel="stylesheet"type="text/css" />
+	  <link href="css/bootstrap/bootstrap.css" rel="stylesheet"type="text/css" />
+	  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	</head>
+
+
+	<body>
+
+		<header>
+			<div class="logoSlogan">
+				<img class="img-responsive" src="images/speedy.png" alt="Logo Speedy">
+			</div>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="#">Devenir client</a></li>
+				<li><a href="#">Devenir Livreur</a></li>
+				<li><a href="/login">Se Logger</a></li> 
+				
+				<li><a href="#">A propos</a></li>
+			</ul>
+		</nav>
+
+
+		<!-- Index Component -->
+		<section>
+			<article>
+				<form>
+					<div class="form_header">
+						<h4>Démarrer une livraison</h4>
+					</div>
+
+					<div class="form_body">
+						<div class="selectOption">
+							<select name="type_colis">
+								<option value="default" selected>Type de livraison</option>
+								<option value="sac">Plat à emporter</option>
+								<option value="document">Document</option>
+								<option value="carton">Carton</option>
+								<option value="electronique">Equipement électronique</option>
+							</select>
+						</div>
+
+						<div class="input">
+							<input type="text" name="ref" placeholder="Reférence du colis">
+						</div>
+
+						<div class="input">
+							<input type="text" name="ref" placeholder="Désignation du colis">
+						</div>
+
+						<div class="button">
+							<input type="submit" value="continuer" class="btn" (click)="postColis()" >
+						</div>
+
+					</div>
+
+				</form>
+			</article>
+		</section>
+
+		<div id="body0">
+			<h1>Les services de speedy</h1>
+
+			<div class="content">
+				<div class="box">
+					<h2>Bloc titre</h2>
+					<p>
+						Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem  
+						ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum.
+					</p>
+				</div>
+
+				<div class="box">
+					<h2>Bloc titre</h2>
+					<p>
+						Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem 
+						ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum.
+					</p>
+				</div>
+
+				<div class="box">
+					<h2>Bloc titre</h2>
+					<p>
+						Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem 
+						ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="body1">
+			<div class="text">
+				<h1>Nos clients chez SPEEDY</h1>
+				<p>
+					Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem  ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum.
+				</p>
+			</div>
+
+			<div class="button">
+				<button class="btn">
+					Devenez client
+				</button>
+			</div>
+		</div>
+
+		<div id="body2">
+			<div class="text">
+				<h1>La flotte de livreurs chez SPEEDY</h1>
+				<p>
+					Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem  ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum.
+				</p>
+			</div>
+
+			<div class="button">
+				<button class="btn">
+					Devenez livreur
+				</button>
+			</div>
+
+		</div>
+		<!-- End Index Component -->
+
+		<footer>
+			Copyright &copy; Speedy 2018
+		</footer>
+
+
+		<script type="text/javascript" src="js/bootstrap/bootstrap.js"></script>
+		<script type="text/javascript" src="js/popper/popper.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.js"></script>
+	</body>
+</html>
