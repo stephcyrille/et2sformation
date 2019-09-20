@@ -1,0 +1,210 @@
+section{
+	padding-top: 100px;
+	padding-left: 80px;
+	height: 540px;
+	clear: both;
+	background-image: url('../images/food-bckg.jpg');
+}
+
+article{
+	float: left;
+	background-color: #5149f6;
+	height: 300px;
+	width: 400px;
+	opacity: ;
+	box-shadow: 1px 3px 15px black;
+}
+
+form .form_header{
+	margin-top: 25px;
+}
+
+form .form_header h4{
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: white;
+}
+
+form .form_body .selectOption{
+	text-align: center;
+	margin-top: 10px;
+}
+form .form_body .selectOption select{
+	width: 80%;
+	height: 40px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+form .form_body .selectOption select option{
+	height: 40px;
+}
+
+form .form_body .input{
+	text-align: center;
+	margin-top: 10px
+}
+form .form_body .input input{
+	font-size: 16px;
+	text-align: center;
+	width: 80%;
+	height: 40px;
+	border: 1px solid grey;
+}
+
+form .form_body .input input:focus{
+	box-shadow: 1px 3px 15px #ff5b00;
+}
+
+form .form_body .button{
+	text-align: center;
+	margin-top: 20px;
+}
+form .form_body .button .btn{
+	font-size: 16px;
+	height: 40px;
+	width: 30%;
+	color: #5149f6;
+	background-color: white;
+	border: 1px solid #5149f6;
+}
+form .form_body .button .btn:hover{
+	background-color: #ff5b00;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+form .form_body .button .btn:active{
+	background-color: white;
+	border: 1px solid #ff5b00;
+	color: #ff5b00;
+	cursor: pointer;
+}
+
+
+
+/*Le body0*/
+#body0{
+	padding: 50px 100px 50px 100px;
+	background-color: #ffffff;
+	height: 350px;
+	color: #5149f6;
+}
+#body0 h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#body .content{
+	margin: auto;
+}
+#body0 .content .box{
+	float: left;
+	width: 33.33%;
+}
+
+#body0 .content .box h2{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+
+
+#body1{
+	padding: 50px 100px 100px 50px;
+	background-color: #ff5b00;
+	clear: both;
+}
+
+#body1 .text h1{
+	margin-bottom: 30px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+#body1 .text p{
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+#body1 .button{
+	display: grid;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#body1 .button .btn{ 
+	padding: 10px 60px 10px 60px;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #ff5b00;
+	border: 1px solid white;
+	border-radius: 5px
+}
+#body1 .button .btn:hover{ 
+	color: #ff5b00;
+	background-color: white;
+	border: 1px solid #ff5b00;
+	cursor: pointer;
+}
+
+#body1 .button .btn:active{ 
+	color: white;
+	background-color: #ff5b00;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+
+
+
+#body2{
+	padding: 50px 100px 100px 50px;
+	background-color: #5149f6;
+}
+
+#body2 .text h1{
+	margin-bottom: 30px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+}
+#body2 .text p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+#body2 .button{
+	display: grid;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#body2 .button .btn{ 
+	padding: 10px 60px 10px 60px;
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #5149f6;
+	border: 1px solid #ffffff;
+	border-radius: 5px
+}
+#body2 .button .btn:hover{ 
+	color: #5149f6;
+	background-color: #ffffff;
+	border: 1px solid #5149f6;
+	cursor: pointer;
+}
+
+#body2 .button .btn:active{ 
+	color: #ffffff;
+	background-color: #5149f6;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+}
